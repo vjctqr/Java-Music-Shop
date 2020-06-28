@@ -1,6 +1,8 @@
 package instruments;
 
-public class DrumSet extends Instrument {
+import behaviours.IPlay;
+
+public class DrumSet extends Instrument implements IPlay {
 
     private String brand;
     private String color;
@@ -8,6 +10,10 @@ public class DrumSet extends Instrument {
 
     public DrumSet(String brand, String color, double price){
         super(brand, color, price);
+    }
+
+    public String playSound(String data){
+        return playSound(data);
     }
 
 }
