@@ -6,21 +6,21 @@ public abstract class Instrument {
     private String color;
     private double price;
 
-    public Instrument(String name, String color, double price){
+    public Instrument(String brand, String color, double price){
         this.brand = brand;
         this.color = color;
         this.price = price;
     }
 
     public String getName(){
-        return this.brand;
+        return brand;
     }
 
     public String getColor() {
-        return this.color;
+        return color;
     }
 
     public double getPrice(){
-        return this.price;
+        return price;
     }
 }
