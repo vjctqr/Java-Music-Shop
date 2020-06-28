@@ -12,7 +12,8 @@ public class Guitar extends Instrument implements IPlay {
         super(brand, color, price);
     }
 
-    public String playedSound(String sound) {
-        return super.playSound(sound);
+    public String playedSound(String data) {
+        return playSound(data);
     }
+
 }

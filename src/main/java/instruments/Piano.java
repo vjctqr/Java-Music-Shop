@@ -9,4 +9,6 @@ public class Piano extends Instrument{
     public Piano(String brand, String color, double price){
         super(brand, color, price);
     }
+
+
 }
