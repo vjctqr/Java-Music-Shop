@@ -29,4 +29,9 @@ public class DrumSetTest {
         assertEquals(499.99, drumSet.getPrice(), 0.01);
     }
 
+    @Test
+    public void canAmplify(){
+        assertEquals("amplifying: Ba-dum-bum-ching!", drumSet.playSound("Ba-dum-bum-ching"));
+    }
+
 }
