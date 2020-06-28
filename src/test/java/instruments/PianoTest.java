@@ -28,4 +28,9 @@ public class PianoTest {
     public void hasPrice(){
         assertEquals(2399.00, piano.getPrice(), 0.01);
     }
+
+    @Test
+    public void canAmplify(){
+        assertEquals("amplifying: Plink-a-plink!", piano.playedSound("Plink-a-plink!"));
+    }
 }

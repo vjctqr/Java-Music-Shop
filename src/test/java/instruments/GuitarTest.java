@@ -31,6 +31,6 @@ public class GuitarTest {
 
     @Test
     public void canAmplify(){
-        assertEquals("amplifying: Gling-glan-dling-ding!", guitar.playSound("Gling-glan-dling-ding!"));
+        assertEquals("amplifying: Gling-glan-dling-ding!", guitar.playedSound("Gling-glan-dling-ding!"));
     }
 }
