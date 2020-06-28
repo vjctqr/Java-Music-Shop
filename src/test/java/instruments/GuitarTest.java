@@ -11,7 +11,7 @@ public class GuitarTest {
 
     @Before
     public void before(){
-        guitar = new Guitar("Fender", "White", 575.00);
+        guitar = new Guitar("Fender", "Vintage Blonde", 575.00);
     }
 
     @Test
@@ -22,5 +22,10 @@ public class GuitarTest {
     @Test
     public void hasColor(){
         assertEquals("Vintage Blonde", guitar.getColor());
+    }
+
+    @Test
+    public void hasPrice(){
+        assertEquals(575.00, guitar.getPrice(), 0.01);
     }
 }
