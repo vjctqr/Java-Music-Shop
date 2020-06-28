@@ -12,7 +12,7 @@ public class DrumSet extends Instrument implements IPlay {
         super(brand, color, price);
     }
 
-    public String playSound(String data){
+    public String playedSound(String data){
         return playSound(data);
     }
 

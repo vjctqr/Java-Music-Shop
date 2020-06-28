@@ -23,4 +23,8 @@ public abstract class Instrument {
     public double getPrice(){
         return price;
     }
+
+    public String playSound(String sound){
+        return "amplifying: " + sound;
+    }
 }

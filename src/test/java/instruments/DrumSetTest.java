@@ -31,7 +31,7 @@ public class DrumSetTest {
 
     @Test
     public void canAmplify(){
-        assertEquals("amplifying: Ba-dum-bum-ching!", drumSet.playSound("Ba-dum-bum-ching"));
+        assertEquals("amplifying: Ba-dum-bum-ching!", drumSet.playedSound("Ba-dum-bum-ching!"));
     }
 
 }
