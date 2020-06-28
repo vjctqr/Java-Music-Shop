@@ -9,4 +9,5 @@ public class Guitar extends Instrument {
     public Guitar(String brand, String color, double price){
         super(brand, color, price);
     }
+
 }
