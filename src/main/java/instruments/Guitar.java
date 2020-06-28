@@ -1,4 +1,4 @@
-package intruments;
+package instruments;
 
 public class Guitar {
 }
