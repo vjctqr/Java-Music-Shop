@@ -24,4 +24,9 @@ public class DrumSetTest {
         assertEquals("Black", drumSet.getColor());
     }
 
+    @Test
+    public void hasPrice(){
+        assertEquals(499.99, drumSet.getPrice(), 0.01);
+    }
+
 }
