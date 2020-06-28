@@ -1,6 +1,8 @@
 package instruments;
 
-public class Guitar extends Instrument {
+import behaviours.IPlay;
+
+public class Guitar extends Instrument implements IPlay {
 
     private String brand;
     private String color;
@@ -10,4 +12,7 @@ public class Guitar extends Instrument {
         super(brand, color, price);
     }
 
+    public String playedSound(String sound) {
+        return super.playSound(sound);
+    }
 }
