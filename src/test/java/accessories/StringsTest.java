@@ -23,5 +23,4 @@ public class StringsTest {
         assertEquals(15.40, strings.getPrice(), 0.01);
     }
 
-
 }
