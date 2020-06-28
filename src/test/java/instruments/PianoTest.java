@@ -18,4 +18,9 @@ public class PianoTest {
     public void hasBrand(){
         assertEquals("Gewa", piano.getBrand());
     }
+
+    @Test
+    public void hasColor(){
+        assertEquals("White", piano.getColor());
+    }
 }
