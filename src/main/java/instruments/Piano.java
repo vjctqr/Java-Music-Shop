@@ -10,5 +10,7 @@ public class Piano extends Instrument{
         super(brand, color, price);
     }
 
-
+    public String playedSound(String data) {
+        return playSound(data);
+    }
 }
