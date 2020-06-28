@@ -18,4 +18,9 @@ public class ViolinTest {
     public void hasBrand(){
         assertEquals("Cremona", violin.getBrand());
     }
+
+    @Test
+    public void hasColor(){
+        assertEquals("Ebony", violin.getColor());
+    }
 }
