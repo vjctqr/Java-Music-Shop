@@ -23,4 +23,9 @@ public class ViolinTest {
     public void hasColor(){
         assertEquals("Ebony", violin.getColor());
     }
+
+    @Test
+    public void hasPrice(){
+        assertEquals(189.99, violin.getPrice(), 0.01);
+    }
 }
