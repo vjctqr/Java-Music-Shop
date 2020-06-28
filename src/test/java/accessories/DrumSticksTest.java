@@ -18,4 +18,9 @@ public class DrumSticksTest {
     public void hasBrand(){
         assertEquals("Vater", drumSticks.getBrand());
     }
+
+    @Test
+    public void hasPrice(){
+        assertEquals(35.50, drumSticks.getPrice(), 0.01);
+    }
 }
