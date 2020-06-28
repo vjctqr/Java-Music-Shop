@@ -12,7 +12,7 @@ public abstract class Instrument {
         this.price = price;
     }
 
-    public String getName(){
+    public String getBrand(){
         return brand;
     }
 

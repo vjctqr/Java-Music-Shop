@@ -16,12 +16,12 @@ public class DrumSetTest {
 
     @Test
     public void hasBrand(){
-        assertEquals("Yamaha");
+        assertEquals("Yamaha", drumSet.getBrand());
     }
 
     @Test
     public void hasColor(){
-        assertEquals("Black");
+        assertEquals("Black", drumSet.getColor());
     }
 
 }
